@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "WooleeWeather",
-    "slug": "WooleeWeather",
+    "name": "JSWeather",
+    "slug": "just_simple_weather",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.devwool.WooleeWeather"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.devwool.WooleeWeather"
     },
     "web": {
       "favicon": "./assets/favicon.png"
